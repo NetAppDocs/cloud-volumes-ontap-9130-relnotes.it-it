@@ -237,7 +237,6 @@ Coppie HA: 18 in un nodo ^1^</block>
   <block id="cee631121c2ec9232f3a2f028ad5c89b" category="cell">500</block>
   <block id="9dba50d3a2c2f26daddbf9d144c49772" category="cell">Dimensione minima</block>
   <block id="e2fca4ed20d01d1eda8a934cf81cb194" category="cell">20 MB</block>
-  <block id="87338ad799bddd85c6298bb9270dc27f" category="cell">100 TIB</block>
   <block id="f870c45bb6c4b8bad8f13c8dc3439f98" category="cell">*Qtree*</block>
   <block id="8032f0290a7c4e00a6da3a195523a94e" category="cell">Massimo per volume FlexVol</block>
   <block id="38de34e4b49b8adfeb2c678818915204" category="cell">4,995</block>
@@ -417,7 +416,6 @@ Coppie HA: 18 in un nodo ^1^</block>
   <block id="41a0b1e6c6d31716c7d7b603ce6a4936" category="section-title">Limiti di storage logico</block>
   <block id="324f218b8144e744b54eb58e0bf14eea" category="cell">16 TB</block>
   <block id="302f571fec3e23b2236f116e51e46721" category="cell">Profondità del clone gerarchico ^12^</block>
-  <block id="309524b9e1ef1d7d7d905c7cb1d358e9" category="cell">100 TB</block>
   <block id="7b9e5415e02ff7ad5eaae61345740517" category="inline-link">Scopri come funziona lo storage in una coppia Cloud Volumes ONTAP ha eseguita in Google Cloud</block>
   <block id="e14f9eb0a41dc045a4d5568d18e8170e" category="paragraph"><block ref="50d9731ce0bfc8e3757cc819b5895c1f" category="inline-link-rx"></block>.</block>
   <block id="a1998150800fd10b93e35cace9e4373f" category="summary">Cloud Volumes ONTAP 9.13.0 include un nuovo miglioramento.</block>
@@ -700,9 +698,6 @@ Coppie HA: 18 in un nodo ^1^</block>
   <block id="5313a9ac102424f63dd4d76f5280130e" category="sidebar">Limitazioni in AWS</block>
   <block id="1fff298355326f8c77bd77059a41c1a2" category="sidebar">Limitazioni in Azure</block>
   <block id="9a3a0c4b2afbb088e029484d4b34ba8b" category="sidebar">Limitazioni di Google Cloud</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Tutta la documentazione BlueXP</block>
-  <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
-  <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">Cloud ONTAP</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
   <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
@@ -714,4 +709,11 @@ Coppie HA: 18 in un nodo ^1^</block>
   <block id="fd164e9cb2bc1ac5405cabfe451663f7" category="cell">2 PIB (richiede più licenze)</block>
   <block id="2dbd9a217bce4c7ba4ef467f57d6875c" category="paragraph">Puoi acquistare più licenze basate su nodi per un sistema Cloud Volumes ONTAP BYOL a nodo singolo o coppia ha, per allocare più di 368 TiB di capacità, fino al limite massimo di capacità di sistema testato e supportato di 2 PIB. Tenere presente che i limiti dei dischi possono impedire di raggiungere il limite di capacità utilizzando solo i dischi. È possibile superare il limite di dischi di<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>.<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>. Sebbene Cloud Volumes ONTAP supporti fino alla capacità massima testata e supportata di sistema di 2 PIB, il superamento del limite di 2 PIB comporta una configurazione di sistema non supportata.</block>
   <block id="de9d6749570efc87e63811b5947fc250" category="paragraph">Il cloud segreto e le regioni del cloud top secret AWS supportano l'acquisto di licenze basate su nodi multipli a partire da Cloud Volumes ONTAP 9.12.1.</block>
+  <block id="64063abe39aac990beb215f4e4df9f92" category="cell">Dimensione massima ^2^</block>
+  <block id="d0bb632fcdb31cf3c729c1c59f826d4f" category="cell">128 TB</block>
+  <block id="95f8ab07e6196c13df81b9123cb42b19" category="cell">Dimensione massima ^3^</block>
+  <block id="4dd4655034851cefb46869bef690cc22" category="cell">300 TIB</block>
+  <block id="ae809759e1518d5c4c2019b9c03f15a1" category="list-text">A partire da ONTAP 9.12.1P2, il limite è di 128 TB. In ONTAP 9.11.1 e nelle versioni precedenti, il limite è di 16 TB.</block>
+  <block id="23a69cce1857cb7ad696abba7e98194d" category="list-text">La creazione di volumi FlexVol fino alle dimensioni massime di 300 TiB è supportata utilizzando System Manager e la CLI ONTAP a partire da Cloud Volumes ONTAP 9.12.1 P2 e 9.13.0 P2.</block>
+  <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300 TB</block>
 </blocks>
